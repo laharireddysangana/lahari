@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Medical Diagnosis &amp; ML App | About Us</title>
+  <link rel="icon" href="img/core-img/logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="medilife-load"></div>
+  </div>
+
+  <!-- Header Area Start -->
+  <header class="header-area">
+    <div class="top-header-area">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center justify-content-between">
+          <div class="col-12 col-sm-6">
+            <div class="top-header-content">
+              <p>Welcome to Medical Diagnosis, an all-in-one disease prediction ML-based app created with love by team.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="top-header-content">
+              <p>Covid updates: <span><a href="https://www.bing.com/covid/local/india">Click here</a></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+</html>
