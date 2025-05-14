@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="row" style="margin-bottom: 17px">
+  <div class="col-md-6 offset-md-3">
+    <div class="card card-body">
+      <h3 class="text-center">Heart Disease Prediction</h3>
+      <form class="form-horizontal" action="{{ url_for('predictHeart') }}" method="POST">
+        <div class="form-group">
+          <input style="border: 1px solid black;" class="form-control" type="text" name="age" placeholder="Enter age in years" />
+        </div>
+        <div class="form-group">
+          <input style="border: 1px solid black;" class="form-control" type="text" name="sex" placeholder="Check male: 1 | female: 0" />
+        </div>
+        <div class="form-group">
+          <input style="border: 1px solid black;" class="form-control" type="text" name="cp" placeholder="Chest pain type" />
+        </div>
+        <div class="form-group">
+          <input style="border: 1px solid black;" class="form-control" type="text" name="trestbps" placeholder="Resting blood pressure" />
+        </div>
+        <div class="form-group">
+          <input style="border: 1px solid black;" class="form-control" type="text" name="chol" placeholder="Serum cholesterol in mg/dl" />
+        </div>
+        <div class="form-group">
+          <input style="border: 1px solid black;" class="form-control" type="text" name="fbs" placeholder="Fasting blood sugar >120 mg/dl (1 = true; 0 = false)" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
